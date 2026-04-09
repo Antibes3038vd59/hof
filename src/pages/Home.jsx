@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../css/Home.css';
+import '../index.css';
 import Overlay from '../components/Overlay';
 
 const Home = () => {
@@ -110,7 +111,7 @@ const Home = () => {
 
         <img
           className="main-image"
-          src={`${process.env.PUBLIC_URL}/images/Dordrecht.jpg`}
+          src={`${window.location.origin}/hof/images/Dordrecht.jpg`}
           alt="Dordrecht"
         />
         <img
