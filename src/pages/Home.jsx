@@ -116,7 +116,7 @@ const Home = () => {
         />
         <img
           className="cirkel"
-          src={`${window.location.origin}/images/cirkel.png`}
+          src={`${window.location.origin}/hof/images/cirkel.png`}
           alt="Ga naar pagina twee"
           onClick={scrollToPaginaTwee}
         />
@@ -147,7 +147,7 @@ const Home = () => {
         </p>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/Hof1.jpg`}
+          src={`${window.location.origin}/hof/images/Hof1.jpg`}
           alt="hof"
         />
       </div>
@@ -157,12 +157,12 @@ const Home = () => {
         <div ref={overlayContainerRefPaginaTwee}>
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/complex.jpg`}
+          src={`${window.location.origin}/hof/images/complex.jpg`}
           alt="Statenzaal"
         />
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/Hof4.jpg`}
+          src={`${window.location.origin}/hof/images/Hof4.jpg`}
           alt="hof"
         />
           <h2 id= "statenzaal-section" className="overlay-kop">De Statenzaal</h2>
@@ -191,7 +191,7 @@ const Home = () => {
           </p>
           <img
             className="overlay-image"
-            src={`${window.location.origin}/images/Augustijnenkerk.jpg`}
+            src={`${window.location.origin}/hof/images/Augustijnenkerk.jpg`}
             alt="Augustijnenkerk"
           />
           <h2 id= "augustijnenkerk-section" className="overlay-kop">De Augustijnenkerk</h2>
@@ -211,7 +211,7 @@ const Home = () => {
           </p>
           <img
             className="overlay-image"
-            src={`${window.location.origin}/images/kloostertuin.jpg`}
+            src={`${window.location.origin}/hof/images/kloostertuin.jpg`}
             alt="kloostertuin"
           />
           <h2 id= "kloostertuin-section"  className="overlay-kop">De kloostertuin</h2>
@@ -233,7 +233,7 @@ const Home = () => {
       {showOverlayPaginaTwee && (
         <img
           className="arrow-overlay"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Sluit overlay"
           onClick={toggleOverlay(setShowOverlayPaginaTwee, overlayContainerRefPaginaTwee)}
         />
@@ -255,7 +255,7 @@ const Home = () => {
         </p>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/oorlog.jpg`}
+          src={`${window.location.origin}/hof/images/oorlog.jpg`}
           alt="oorlog"
         />
       </div>
@@ -268,7 +268,7 @@ const Home = () => {
         <div ref={overlayContainerRefPaginaDrie}>
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/Filips-II.jpg`}
+          src={`${window.location.origin}/hof/images/Filips-II.jpg`}
           alt="Filips-II"
         />
         <h2  id= "filipsII-section" className="overlay-kop">De Spaanse overheersing</h2>
@@ -298,7 +298,7 @@ const Home = () => {
 
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/beeldenstorm.jpg`}
+          src={`${window.location.origin}/hof/images/beeldenstorm.jpg`}
           alt="beeldenstorm"
         />
         In augustus 1566 barstte de Beeldenstorm los, waarbij protestanten in een golf van geweld katholieke 
@@ -324,7 +324,7 @@ const Home = () => {
       {showOverlayPaginaDrie && (
         <img
           className="arrow-overlay"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Sluit overlay"
           onClick={toggleOverlay(setShowOverlayPaginaDrie, overlayContainerRefPaginaDrie)}
         />
@@ -346,7 +346,7 @@ const Home = () => {
         </p>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/Willem1.jpg`}
+          src={`${window.location.origin}/hof/images/Willem1.jpg`}
           alt="Willem van Oranje"
         />
       </div>
@@ -359,7 +359,7 @@ const Home = () => {
         <div ref={overlayContainerRefPaginaVier}>
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/Willem3.jpg`}
+          src={`${window.location.origin}/hof/images/Willem3.jpg`}
           alt="Willem van Oranje"
         />
         <h2  id= "willem-section" className="overlay-kop">Willem van Oranje</h2>
@@ -387,7 +387,7 @@ const Home = () => {
         
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/oorlog.jpg`}
+          src={`${window.location.origin}/hof/images/oorlog.jpg`}
           alt="Tachtigjarige Oorlog"
         />
         Willem van Oranje besloot dat gewapend verzet de enige manier was om de Spaanse overheersing 
@@ -410,7 +410,7 @@ const Home = () => {
       {showOverlayPaginaVier && (
         <img
           className="arrow-overlay"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Sluit overlay"
           onClick={toggleOverlay(setShowOverlayPaginaVier, overlayContainerRefPaginaVier)}
         />
@@ -433,7 +433,7 @@ const Home = () => {
         </p>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/statenvergadering.jpg`}
+          src={`${window.location.origin}/hof/images/statenvergadering.jpg`}
           alt="statenvergadering"
         />
       </div>
@@ -446,7 +446,7 @@ const Home = () => {
         <div ref={overlayContainerRefPaginaVijf}>
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/Willem2.jpg`}
+          src={`${window.location.origin}/hof/images/Willem2.jpg`}
           alt="Willem van Oranje"
         />
         <h2  id= "Willem-section" className="overlay-kop">Een historisch keerpunt</h2>
@@ -495,7 +495,7 @@ const Home = () => {
 
         <img
           className="overlay-image"
-          src={`${window.location.origin}/images/oorlog.jpg`}
+          src={`${window.location.origin}/hof/images/oorlog.jpg`}
           alt="statenvergadering"
         />
 
@@ -536,7 +536,7 @@ const Home = () => {
       {showOverlayPaginaVijf && (
         <img
           className="arrow-overlay"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Sluit overlay"
           onClick={toggleOverlay(setShowOverlayPaginaVijf, overlayContainerRefPaginaVijf)}
         />
@@ -559,7 +559,7 @@ const Home = () => {
         </p>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/afzwering.jpg`}
+          src={`${window.location.origin}/hof/images/afzwering.jpg`}
           alt="afzwering"
         />
       </div>
@@ -656,103 +656,103 @@ const Home = () => {
 
 
         <img
-          src={`${window.location.origin}/images/1.jpg`}
+          src={`${window.location.origin}/hof/images/1.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/2.jpg`}
+          src={`${window.location.origin}/hof/images/2.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/3.jpg`}
+          src={`${window.location.origin}/hof/images/3.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
          <img
-          src={`${window.location.origin}/images/4.jpg`}
+          src={`${window.location.origin}/hof/images/4.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/5.jpg`}
+          src={`${window.location.origin}/hof/images/5.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/6.jpg`}
+          src={`${window.location.origin}/hof/images/6.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/7.jpg`}
+          src={`${window.location.origin}/hof/images/7.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/8.jpg`}
+          src={`${window.location.origin}/hof/images/8.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/9.jpg`}
+          src={`${window.location.origin}/hof/images/9.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
          <img
-          src={`${window.location.origin}/images/10.jpg`}
+          src={`${window.location.origin}/hof/images/10.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/11.jpg`}
+          src={`${window.location.origin}/hof/images/11.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/12.jpg`}
+          src={`${window.location.origin}/hof/images/12.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/13.jpg`}
+          src={`${window.location.origin}/hof/images/13.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/14.jpg`}
+          src={`${window.location.origin}/hof/images/14.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/15.jpg`}
+          src={`${window.location.origin}/hof/images/15.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
          <img
-          src={`${window.location.origin}/images/16.jpg`}
+          src={`${window.location.origin}/hof/images/16.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/17.jpg`}
+          src={`${window.location.origin}/hof/images/17.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/18.jpg`}
+          src={`${window.location.origin}/hof/images/18.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/19.jpg`}
+          src={`${window.location.origin}/hof/images/19.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/20.jpg`}
+          src={`${window.location.origin}/hof/images/20.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/21.jpg`}
+          src={`${window.location.origin}/hof/images/21.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
          <img
-          src={`${window.location.origin}/images/22.jpg`}
+          src={`${window.location.origin}/hof/images/22.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/23.jpg`}
+          src={`${window.location.origin}/hof/images/23.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/24.jpg`}
+          src={`${window.location.origin}/hof/images/24.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         <img
-          src={`${window.location.origin}/images/25.jpg`}
+          src={`${window.location.origin}/hof/images/25.jpg`}
           alt="Plakkaat van Verlatinghe"
         />
         
@@ -764,7 +764,7 @@ const Home = () => {
       {showOverlayPaginaZes && (
         <img
           className="arrow-overlay"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Sluit overlay"
           onClick={toggleOverlay(setShowOverlayPaginaZes, overlayContainerRefPaginaZes)}
         />
@@ -787,7 +787,7 @@ const Home = () => {
         </p>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/Hof2.jpg`}
+          src={`${window.location.origin}/hof/images/Hof2.jpg`}
           alt="hof"
         />
       </div>
@@ -923,7 +923,7 @@ const Home = () => {
       {showOverlayPaginaZeven && (
         <img
           className="arrow-overlay"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Sluit overlay"
           onClick={toggleOverlay(setShowOverlayPaginaZeven, overlayContainerRefPaginaZeven)}
         />
@@ -945,7 +945,7 @@ const Home = () => {
         </h2>
         <img
           className="main-image"
-          src={`${window.location.origin}/images/Hof3.jpg`}
+          src={`${window.location.origin}/hof/images/Hof3.jpg`}
           alt="hof"
         />
         <footer className="footer">© 't Hof 2026</footer>
@@ -954,7 +954,7 @@ const Home = () => {
       {showArrow && (
         <img
           className="arrow"
-          src={`${window.location.origin}/images/arrow.png`}
+          src={`${window.location.origin}/hof/images/arrow.png`}
           alt="Naar boven"
           onClick={scrollToTop}
         />
