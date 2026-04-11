@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Antibes3038vd59/hof/static/css/main.67690b19.css",
-    "main.js": "/Antibes3038vd59/hof/static/js/main.0e34709a.js",
+    "main.css": "/Antibes3038vd59/hof/static/css/main.ee04064d.css",
+    "main.js": "/Antibes3038vd59/hof/static/js/main.07e58881.js",
     "index.html": "/Antibes3038vd59/hof/index.html",
-    "main.67690b19.css.map": "/Antibes3038vd59/hof/static/css/main.67690b19.css.map",
-    "main.0e34709a.js.map": "/Antibes3038vd59/hof/static/js/main.0e34709a.js.map"
+    "main.ee04064d.css.map": "/Antibes3038vd59/hof/static/css/main.ee04064d.css.map",
+    "main.07e58881.js.map": "/Antibes3038vd59/hof/static/js/main.07e58881.js.map"
   },
   "entrypoints": [
-    "static/css/main.67690b19.css",
-    "static/js/main.0e34709a.js"
+    "static/css/main.ee04064d.css",
+    "static/js/main.07e58881.js"
   ]
 }

@@ -1,13 +1,7 @@
-cat > src/App.js <<EOL
-import React from 'react';
+import Home from './pages/Home'; // of waar je bestand zit
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
-EOL
