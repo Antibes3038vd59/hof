@@ -1,7 +1,13 @@
-import Home from './pages/Home'; // of waar je bestand zit
+import React, { useEffect } from 'react';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import './index.css';
 
 function App() {
-  return <Home />;
+  return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
 }
 
 export default App;
