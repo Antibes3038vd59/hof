@@ -226,7 +226,7 @@
 
 
 
-@media (min-width: 480px) and (max-height: 667px) {
+@media (max-height: 430px) and (orientation: landscape) {
     .arrow {
         width: 8%;
     }
