@@ -99,7 +99,7 @@ const Home = () => {
         <h2 className="main-kop-anders">De geboorteplaats van de republiek</h2>
 
         <nav className="nav">
-          <ul>
+          <ul className="mobiel-horizontaal">
             <li><a href="#pagina-twee" onClick={(e) => { e.preventDefault(); scrollToSection('pagina-twee'); }}>'t Hof</a></li>
             <li><a href="#pagina-drie" onClick={(e) => { e.preventDefault(); scrollToSection('pagina-drie'); }}>Spaanse overheersing</a></li>
             <li><a href="#pagina-vier" onClick={(e) => { e.preventDefault(); scrollToSection('pagina-vier'); }}>Tachtigjarige Oorlog</a></li>
@@ -129,7 +129,7 @@ const Home = () => {
       <div id="pagina-twee" className="main-pagina">
         <h2 className="main-kop">In de binnenstad van Dordrecht</h2>
         <p className="main-tekst">
-          staat 't Hof. Een historisch gebouwencomplex met een rijke en gevarieerde geschiedenis. De {' '}
+          staat 't Hof. Een historisch gebouwencomplex bestaande uit de {' '}
           <span
             onClick={toggleOverlay(setShowOverlayPaginaTwee, overlayContainerRefPaginaTwee, 'statenzaal-section')}
             style={{ cursor: 'pointer', textDecoration: 'underline' }}>
@@ -142,7 +142,7 @@ const Home = () => {
             onClick={toggleOverlay(setShowOverlayPaginaTwee, overlayContainerRefPaginaTwee, 'kloostertuin-section')}
             style={{ cursor: 'pointer', textDecoration: 'underline' }}>
             kloostertuin
-          </span> maken er deel van uit. Het is bekend om de Eerste Vrije Statenvergadering 
+          </span>. Het is bekend om de Eerste Vrije Statenvergadering 
           in 1572.
         </p>
         <img
