@@ -81,18 +81,15 @@ const Home = () => {
   // tonen arrow main page
   useEffect(() => {
     const handleScroll = () => {
-      const paginaTwee = document.getElementById('pagina-twee');
-      if (paginaTwee) {
-        const positie = paginaTwee.getBoundingClientRect();
-        setShowArrow(positie.top <= 1);
-      }
+      // Toon de pijl als de gebruiker ook maar 1 pixel naar beneden heeft gescrolled
+      setShowArrow(window.scrollY > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  return (
+    return (
     <main>
       {/* PAGINA 1 */}
       <div id="pagina-een" className="main-pagina">
