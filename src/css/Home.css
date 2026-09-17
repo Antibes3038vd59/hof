@@ -225,15 +225,27 @@
 
 
 
-@media (max-width: 700px) {
+/* ===== TABLET (MAX-WIDTH: 1024PX) ===== */
+@media (max-width: 1024px) {
     .arrow {
-        width: 8%;
+        width: 6%;
+        right: 3%;
+    }
+
+    .cirkel {
+        max-width: 17%;
+        top: 48%;
+        left: 46%;
     }
 
     .nav {
+        bottom: 0%;
         left: 0%;
         font-size: 2.5vw;
-        padding-right: 6%;
+        padding-right: 3%;
+        width: 100%;
+        height: 13vh;
+        line-height: 35px;
     }
 
     .mobiel-horizontaal {
@@ -243,28 +255,178 @@
         padding-left: 10%;
     }
 
+    .footer {
+        font-size: 2vw;
+        padding: 1%;
+    }
+
+    .main-titel {
+        font-size: 15vw;
+        width: 50%;
+    }
+
+    .main-kop-anders {
+        font-size: 5vw;
+        width: 100%;
+        bottom: 13%;
+    }
+
     .main-kop {
-        bottom: 28%;
-        font-size: 4vw;
-        width: 81%;
+        font-size: 5vw;
+        width: 100%;
+        bottom: 17%;
     }
     
     .main-tekst {
-        left: 0;
-        bottom: -6%;
-        font-size: 3vw;
-        padding-right: 2%;
+        font-size: 2.5vw;
         max-width: 100%;
     }
 
+    .overlay-image {
+        width: 60%;
+    }
 
+    .overlay-kop {
+        font-size: 5vw;
+    }
 
     .overlay-tekst {
-        font-size: 3vw;
-        padding: 1.7% 5% 2% 0%;
+        font-size: 2vw;
+        padding: 2% 4% 3% 0%;
     }
-    
+
     .arrow-overlay {
-        width: 8%;
+        width: 5%;
+        right: 8%;
     }
 }
+
+/* ===== MOBIEL (MAX-WIDTH: 768PX) ===== */
+@media (max-width: 768px) {
+    .arrow {
+        width: 10%;
+        right: 5%;
+        bottom: 0%;
+    }
+
+    .cirkel {
+        top: 35.5%;
+        left: 47%;
+        max-width: 15%;
+    }
+
+    .mobiel-horizontaal {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        text-align: justify;
+    }
+
+    .nav {
+        top: 67%;
+        left: 0%;
+        font-size: 2.5vw;
+        padding-top: 0%;
+        padding-right: 8%;
+        width: 100%;
+        height: 27vh;
+        line-height: 40px;
+        z-index: 0;
+    }
+
+    .nav ul li {
+        margin: 0 10px;
+        font-size: 5vw;
+    }
+
+    .footer {
+        font-size: 3vw;
+        padding: 2%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-titel {
+        top: -13.2%;
+        font-size: 20vw;
+        width: 80%;
+        padding-left: 5%;
+    }
+
+    .main-kop-anders {
+        font-size: 7vw;
+        width: 100%;
+        padding-left: 3%;
+        bottom: 28%;
+    }
+
+    .main-kop {
+        font-size: 7vw;
+        width: 100%;
+        padding-left: 3%;
+        bottom: 30.7%;
+    }
+
+    .main-tekst {
+        font-size: 4.5vw;
+        line-height: 1.7;
+        max-width: 100%;
+        padding-left: 3.5%;
+        padding-right: 5%;
+        bottom: -5.5%;
+    }
+
+    .main-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 37%;
+    }
+
+    .overlay-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .overlay-image {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+    }
+
+    .overlay-kop {
+        font-size: 7vw;
+        margin-top: 5%;
+    }
+
+    .overlay-tekst {
+        font-size: 4vw;
+        padding: 3% 5%;
+        margin-top: 5%;
+    }
+
+    .arrow-overlay {
+        width: 10%;
+        right: 5%;
+        top: 3%;
+    }
+}
+
+    /* ===== MOBIEL (MAX-WIDTH: 600PX) ===== */
+@media (max-width: 600px) {
+    .nav {
+        top: 67%;
+        line-height: 35px;
+        padding-top: 2%;
+    }
+}
+
+    /* ===== MOBIEL (MAX-WIDTH: 500PX) ===== */
+@media (max-width: 500px) {
+    .nav {
+        top: 67%;
+        line-height: 30px;
+        padding-top: 0%;
+    }
+}
+

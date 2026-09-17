@@ -775,7 +775,7 @@ const Home = () => {
       <div id="pagina-zeven" className="main-pagina">
         <h2 className="main-kop">De onafhankelijkheid van Nederland</h2>
         <p className="main-tekst">
-          Een reis door verzet, politiek en cultuur. Een verhaal van opstand, eenheid en soevereiniteit.
+          Een verhaal van opstand, eenheid en soevereiniteit.
           Samengevat in een chronologisch, <span 
             onClick={toggleOverlay(setShowOverlayPaginaZeven, overlayContainerRefPaginaZeven, 'overzicht-section')}
             style={{ cursor: 'pointer', textDecoration: 'underline' }}
