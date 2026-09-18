@@ -310,7 +310,7 @@
     }
 
     .cirkel {
-        top: 35.5%;
+        top: 33.5%;
         left: 47%;
         max-width: 15%;
     }
@@ -414,6 +414,11 @@
 
     /* ===== MOBIEL (MAX-WIDTH: 600PX) ===== */
 @media (max-width: 600px) {
+    .cirkel {
+        top: 33.5%;
+        left: 47%;
+        max-width: 15%;
+    }
     .nav {
         top: 67%;
         line-height: 35px;
