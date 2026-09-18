@@ -430,3 +430,12 @@
     }
 }
 
+    /* ===== MOBIEL (MAX-WIDTH: 400PX) ===== */
+    @media (max-width: 400px) {
+        .nav {
+            top: 67%;
+            line-height: 27px;
+            padding-top: 0%;
+        }
+    }
+
